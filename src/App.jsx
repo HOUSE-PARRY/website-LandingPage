@@ -4,12 +4,12 @@ import ThreeDHome from "./ThreeDHome";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<ThreeDHome />} />
         {/* <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
