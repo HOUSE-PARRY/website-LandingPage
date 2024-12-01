@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import ThreeDHome from "./ThreeDHome";
 // import PageNotFound from "./PageNotFound";
 
