@@ -1,13 +1,15 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ThreeDHome from "./ThreeDHome";
+// import PageNotFound from "./PageNotFound";
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<ThreeDHome />} />
+        {/* <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
