@@ -1,11 +1,13 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import ThreeDHome from "./ThreeDHome";
 
 const App = () => {
   return (
-    <Router basename="/">
-      <ThreeDHome />
-    </Router>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<ThreeDHome />} />
+      </Routes>
+    </HashRouter>
   );
 };
 
