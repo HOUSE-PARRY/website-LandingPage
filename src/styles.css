@@ -50,7 +50,7 @@ a {
 .header-button {
   position: absolute;
   display: inline-block;
-  top: 88%; /* Positioned towards the top */
+  top: 86%; /* Positioned towards the top */
   left: 50%; /* Positioned towards the right */
   transform: translate(-50%, -50%); /* Adjust to perfectly center */
   padding: 5px 20px; /* Reduced padding even further */

@@ -51,7 +51,7 @@ const PopupCountdown = ({ isVisible, closePopup }) => {
         <div
           style={{
             fontSize: "2rem",
-            marginBottom: "20px",
+            marginBottom: "60px",
             display: "flex",
             justifyContent: "center",
             gap: "5px", // Space between time blocks
@@ -135,7 +135,7 @@ const PopupCountdown = ({ isVisible, closePopup }) => {
             borderRadius: "8px",
             cursor: "pointer",
             position: "absolute",
-            bottom: "20px",
+            bottom: "14px",
           }}
         >
           Close

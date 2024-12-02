@@ -72,7 +72,7 @@ export function Underlay() {
           style={{
             flex: "1 1 0%",
             height: "100%",
-            fontSize: 12,
+            fontSize: 16,
             lineHeight: "1.5em",
             color: "black",
           }}
@@ -163,7 +163,7 @@ export function Underlay() {
           style={{
             whiteSpace: "nowrap",
             flex: "1 1 0%",
-            fontSize: 12,
+            fontSize: 14,
             lineHeight: "1.5em",
             color: "black",
           }}
