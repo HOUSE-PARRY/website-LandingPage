@@ -23,7 +23,7 @@
 
 import { createRoot } from "react-dom/client";
 import { Suspense } from "react";
-import App from "./App.jsx";
+import App from "./ThreeDHome.jsx";
 import { Underlay, Overlay } from "./components/DirtyFigmaExport";
 import "./styles.css";
 // import "./index.css";
