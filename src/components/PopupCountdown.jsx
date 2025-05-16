@@ -2,7 +2,7 @@ import React from "react";
 import Countdown from "react-countdown";
 
 const PopupCountdown = ({ isVisible, closePopup }) => {
-  const launchDate = new Date("2025-04-30T00:00:00"); // Set your launch date
+  const launchDate = new Date("2025-07-30T00:00:00"); // Set your launch date
 
   if (!isVisible) return null; // Render nothing if not visible
 
@@ -125,6 +125,7 @@ const PopupCountdown = ({ isVisible, closePopup }) => {
         </div>
 
         <button
+          type="button"
           onClick={closePopup}
           style={{
             padding: "10px 20px",
